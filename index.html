@@ -7,14 +7,26 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Scouting Website</h1>
+    <h1>Scouting Website </h1>
     <p>Did they leave during auto?</p>
-    <p>Yes</p>
-    <p>No</p>
-    <p> </p>
-    
-    <p>What time did they leave during auto?</p>
+<label for="optionA">
+  <input type="radio" name="question1" id="optionA" value="A"> Yes
+</label>
+<label for="optionB">
+  <input type="radio" name="question1" id="optionB" value="B"> No
+</label>
 
+<p> </p>
+
+<form id="myForm">
+   
+    <label for="age">What time did they leave during auto?</label><br>
+    <input type="number" id="age" name="age"><br><br>
+    <input type="submit" value="Submit">
+  </form>
+
+
+   
     
     <script src="index.js"></script>
 </body>
